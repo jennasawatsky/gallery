@@ -342,6 +342,7 @@ main {
   margin: 0px;
 }
 
+
 .slideshow-grid {
   grid-template-columns: 24px 1fr 24px;
   max-width: 100vw;
@@ -406,7 +407,14 @@ main {
       .photo-number {
         padding-top: 0rem;
       }
-  /* .copyright-grid {
-    padding-bottom: 2.0px;
-  } */
+
+.footer-container {
+  padding-top: 1.6rem;
+}
+
+      .copyright-1, .copyright-2 {
+          font-size: 1.2rem;
+          line-height: 2.0rem;
+          opacity: 0.87;
     }
+  }
